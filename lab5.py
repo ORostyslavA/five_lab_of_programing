@@ -123,20 +123,3 @@ class Fight:
                 result1 = (self.fighter2.get_name(), self.fighter1.get_name())
 
         return result1
-
-# if __name__ == "__main__":
-#     # Create two fighters
-#     usyk = Fighter("Oleksandr Usyk", 60, 20)
-#     dybua = Fighter("Dybua Den", 65, 20)
-
-#     # Start the fight between the fighters
-#     fight = Fight(usyk, dybua)
-#     result = fight.start_fight()
-
-#     # Determine and print the result of the fight
-#     if result == "Draw":
-#         print("Draw")
-#     else:
-#         winner, loser = result
-#         print(f"The winner is {winner}")
-#         print(f"The loser is {loser}")
